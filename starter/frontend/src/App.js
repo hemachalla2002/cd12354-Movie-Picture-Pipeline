@@ -4,6 +4,7 @@ import MovieDetails from './components/MovieDetails';
 import './App.css';
 
 export default function App() {
+  // testing ci
   const [selectedMovie, setSelectedMovie] = useState(null);
 
   const handleMovieClick = (movie) => {
